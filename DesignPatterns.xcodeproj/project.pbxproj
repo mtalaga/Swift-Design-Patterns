@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D24476F41D4FE3A800A38518 /* SimplePizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24476F31D4FE3A800A38518 /* SimplePizzaFactory.swift */; };
+		D24476F61D4FE3FA00A38518 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24476F51D4FE3FA00A38518 /* Pizza.swift */; };
+		D27B83F11D342C2400881B57 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B83F01D342C2400881B57 /* Items.swift */; };
+		D27B83F31D342C3200881B57 /* DecorateItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B83F21D342C3200881B57 /* DecorateItems.swift */; };
 		D29EC69D1D2ADAC200C4E43D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EC69C1D2ADAC200C4E43D /* main.swift */; };
+		D29EC6A41D2AEE8400C4E43D /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EC6A31D2AEE8400C4E43D /* Duck.swift */; };
+		D29EC6A61D2AEE8E00C4E43D /* Flying.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EC6A51D2AEE8E00C4E43D /* Flying.swift */; };
+		D29EC6A81D2AEE9800C4E43D /* Quacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EC6A71D2AEE9800C4E43D /* Quacking.swift */; };
+		D29EC6AC1D2C319400C4E43D /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EC6AB1D2C319400C4E43D /* WeatherData.swift */; };
+		D29EC6AE1D2C37C500C4E43D /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EC6AD1D2C37C500C4E43D /* Observer.swift */; };
+		D29EC6B11D2D88A300C4E43D /* StarCafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EC6B01D2D88A300C4E43D /* StarCafe.swift */; };
+		D2F0100F1D7E09AC00B164DC /* Pizzeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0100E1D7E09AC00B164DC /* Pizzeria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +34,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D24476F31D4FE3A800A38518 /* SimplePizzaFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePizzaFactory.swift; sourceTree = "<group>"; };
+		D24476F51D4FE3FA00A38518 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		D27B83F01D342C2400881B57 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		D27B83F21D342C3200881B57 /* DecorateItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecorateItems.swift; sourceTree = "<group>"; };
 		D29EC6991D2ADAC200C4E43D /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29EC69C1D2ADAC200C4E43D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D29EC6A31D2AEE8400C4E43D /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Duck.swift; path = DesignPatterns/Duck.swift; sourceTree = "<group>"; };
+		D29EC6A51D2AEE8E00C4E43D /* Flying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flying.swift; path = DesignPatterns/Flying.swift; sourceTree = "<group>"; };
+		D29EC6A71D2AEE9800C4E43D /* Quacking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quacking.swift; path = DesignPatterns/Quacking.swift; sourceTree = "<group>"; };
+		D29EC6AB1D2C319400C4E43D /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		D29EC6AD1D2C37C500C4E43D /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		D29EC6B01D2D88A300C4E43D /* StarCafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarCafe.swift; sourceTree = "<group>"; };
+		D2F0100E1D7E09AC00B164DC /* Pizzeria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizzeria.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D24476F21D4FE16400A38518 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D24476F31D4FE3A800A38518 /* SimplePizzaFactory.swift */,
+				D24476F51D4FE3FA00A38518 /* Pizza.swift */,
+				D2F0100E1D7E09AC00B164DC /* Pizzeria.swift */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
 		D29EC6901D2ADAC200C4E43D = {
 			isa = PBXGroup;
 			children = (
+				D24476F21D4FE16400A38518 /* Factory */,
+				D29EC6AF1D2D83B500C4E43D /* Decorator */,
+				D29EC6AA1D2C312700C4E43D /* Observer */,
+				D29EC6A91D2AEF2100C4E43D /* Strategy */,
 				D29EC69B1D2ADAC200C4E43D /* DesignPatterns */,
 				D29EC69A1D2ADAC200C4E43D /* Products */,
 			);
@@ -60,6 +96,35 @@
 				D29EC69C1D2ADAC200C4E43D /* main.swift */,
 			);
 			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		D29EC6A91D2AEF2100C4E43D /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				D29EC6A31D2AEE8400C4E43D /* Duck.swift */,
+				D29EC6A51D2AEE8E00C4E43D /* Flying.swift */,
+				D29EC6A71D2AEE9800C4E43D /* Quacking.swift */,
+			);
+			name = Strategy;
+			sourceTree = "<group>";
+		};
+		D29EC6AA1D2C312700C4E43D /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				D29EC6AB1D2C319400C4E43D /* WeatherData.swift */,
+				D29EC6AD1D2C37C500C4E43D /* Observer.swift */,
+			);
+			name = Observer;
+			sourceTree = "<group>";
+		};
+		D29EC6AF1D2D83B500C4E43D /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				D29EC6B01D2D88A300C4E43D /* StarCafe.swift */,
+				D27B83F01D342C2400881B57 /* Items.swift */,
+				D27B83F21D342C3200881B57 /* DecorateItems.swift */,
+			);
+			name = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +184,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27B83F31D342C3200881B57 /* DecorateItems.swift in Sources */,
+				D27B83F11D342C2400881B57 /* Items.swift in Sources */,
+				D29EC6A81D2AEE9800C4E43D /* Quacking.swift in Sources */,
+				D2F0100F1D7E09AC00B164DC /* Pizzeria.swift in Sources */,
+				D24476F41D4FE3A800A38518 /* SimplePizzaFactory.swift in Sources */,
+				D24476F61D4FE3FA00A38518 /* Pizza.swift in Sources */,
+				D29EC6B11D2D88A300C4E43D /* StarCafe.swift in Sources */,
+				D29EC6AE1D2C37C500C4E43D /* Observer.swift in Sources */,
+				D29EC6AC1D2C319400C4E43D /* WeatherData.swift in Sources */,
+				D29EC6A41D2AEE8400C4E43D /* Duck.swift in Sources */,
 				D29EC69D1D2ADAC200C4E43D /* main.swift in Sources */,
+				D29EC6A61D2AEE8E00C4E43D /* Flying.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +317,7 @@
 				D29EC6A21D2ADAC200C4E43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
